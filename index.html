@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JS Assignment 4 & 5 - DOM, Async & Fetch</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<h1>JS Form Validation & Fetch API</h1>
+			<article class="main-article">
+				<section class="form-section">
+					<form action="/index.html" id="api-form">
+						<label for="name">Name: </label
+						><input type="text" id="name" required />
+						<p id="nameInputError">Enter a Valid Name</p>
+						<label for="text">Email:</label
+						><input type="text" id="email" required />
+						<p id="emailInputError">Enter Valid Email</p>
+						<button id="form-submit" type="submit">Submit</button>
+					</form>
+				</section>
+				<section class="show-result">
+					<h2>Guessing The Age</h2>
+					<section class="show-result-sub">
+						<h3><span>Name: </span><span id="namespan"></span></h3>
+						<h3><span>Age: </span><span id="agespan"></span></h3>
+						<p id="displayAgeError">Couldn't guess age for this name</p>
+					</section>
+				</section>
+			</article>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
